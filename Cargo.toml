@@ -1,0 +1,12 @@
+[package]
+name = "lau-weather"
+version = "0.1.0"
+edition = "2021"
+description = "Dynamic weather system for the Lau voxel game — weather reflects the emotional/spectral state of PLATO rooms"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1.0.150"
